@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.body{
+    background: #FFFAF5;
+}
+
+.cotalog_text div button{
+    color:  #241400;
+
+/* Текст в параграфах */
+font-family: Montserrat;
+font-size: 0.8125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 196.187%; /* 1.594rem */
+margin-left: 2.5rem;
+border: none ;
+background-color: initial;
+}
+.cotalog_text_h2{
+    color:  #241400;
+
+/* Заголовок h2 */
+font-family: Montserrat;
+font-size: 1.5625rem;
+font-style: normal;
+font-weight: 900;
+line-height: 196.187%; /* 3.06544rem */
+margin-right: 14.5rem;
+}
+.cotalog_text{
+    display: flex;
+    flex-direction: row;
+    /* width: 80rem; */
+    margin-left: 3.19rem;
+}
+.cotalog_text div{
+display: flex;
+align-items: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    width: 100%;
+}
+.swiper {
+    width: 80rem;
+    height: 22rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.13rem;
+  }
+  .swiper-wrapper{
+    display: flex;
+    gap: 10px;
+  
+  }
+  .books_slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .book_box{
+    width: 11.5rem;
+height: 20.75rem;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 1px 4px 15px 1px rgba(0, 0, 0, 0.25);
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+  }
+  .box_book_name{
+    display: flex;
+width: 7.0625rem;
+height: 1.125rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color:  #241400;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: 196.187%; /* 1.71663rem */
+  }
+.a{
+  text-decoration: none;
+  color:#FFF ;
+}
+  .swiper-button-prev{
+    color: #720418;
+  }
+  .swiper-button-next{
+    color: #720418;
+  }
+  .box_book_autor{
+    display: flex;
+width: 8.51456rem;
+height: 0.5625rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color:  #241400;
+font-family: Montserrat;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 196.187%; /* 1.47138rem */
+margin-bottom: 1.5rem;
+  }
+  .box_book_img{
+    width: 8.38931rem;
+height: 11.875rem;
+flex-shrink: 0;
+margin: 1.5rem 0 1.19rem 0;
+  }
+  .box_book_btn{
+    width: 8.5rem;
+height: 1.8125rem;
+flex-shrink: 0;
+border-radius: 0.1875rem;
+background: var(--2, #E16A00);
+box-shadow: 0px 3px 8px 0px rgba(225, 106, 0, 0.19);
+color: #FFF;
+font-family: Montserrat;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 900;
+line-height: 196.187%; /* 1.47138rem */
+text-transform: uppercase;
+border: none;
+  }
+.NEW{
+    width: 2.9375rem;
+height: 0.84863rem;
+flex-shrink: 0;
+text-align: center;
+background-color:  #EB5757;
+filter: drop-shadow(0px 3px 8px rgba(225, 106, 0, 0.19));
+color: #FFF;
+font-family: Montserrat;
+font-size: 0.5625rem;
+font-style: normal;
+font-weight: 900;
+line-height: 196.187%; /* 1.10356rem */
+text-transform: uppercase;
+/* z-index: 2;
+margin:  1px 1px 1px 1px; */
+position: absolute;
+right: 0;
+border-radius: 4px;
+}
+.swiper-slide{
+    display: flex;
+    flex-direction: row;
+    gap: 3.9rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.category_title{
+    color: var(--, #241400);
+
+/* Заголовок h2 */
+font-family: Montserrat;
+font-size: 1.5625rem;
+font-style: normal;
+font-weight: 900;
+line-height: 196.187%; /* 3.06544rem */
+text-align: center;
+}
+.swiper_by_category{
+    margin-top: 8rem;}
+.random_books_section{
+margin-top: 7.69rem;
+    }

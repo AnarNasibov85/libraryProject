@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* MAIN */
+
+:root {
+    --Brown: #391F00;
+    --Orange: #E16A00;
+    --Black: #241400;
+    --Background: #fffaf5;
+    --white: #fff;
+    --fontMontserrat: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--Background);
+    font-family: var(--fontMontserrat);
+}
+
+
+/* HEADER */
+
+.header {
+    width: 100%;
+}
+
+.headerContainer {
+    display: flex;
+    height: 86px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    /* margin-bottom: 80px; */
+    border-bottom: 2px solid whitesmoke;
+}
+
+.menuNav {
+    display: flex;
+}
+
+.menuNav li a {
+    color: var(--Black);
+    font-family: var(--fontMontserrat);
+    font-weight: 400;
+    font-size: 12px;
+    margin-right: 21px;
+    text-decoration: none;
+}
+
+
+.joinUs {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.4s ease all;
+}
+
+.joinUs:hover {
+    opacity: 0.5;
+}
+
+.active {
+    color: var(--Orange) !important;
+    text-decoration: underline;
+    font-weight: 700 !important;
+}
+
+/* SOCIAL MEDIA */
+.social-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 196.187%;
+    color: var(--Black);
+    margin-bottom: 30px;
+  }
+  
+  .socialContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 133px;
+    margin-bottom: 133px;
+  }
+  
+  .social-sect .media-logos {
+    margin-left: 25px;
+  }
+  
+  .facebook-logo,
+  .twitter-logo {
+    margin-right: 52px;
+    cursor: pointer;
+  }
+  
+/* FOOTER */
+
+.footerContainer {
+    background-color: var(--Brown);
+}
+
+/* .bottom-logo{
+    padding-left: 0px;
+    size: 42px;
+} */
+
+.bottom-logo {
+    margin-left: 214px;
+  }
+  .footerNav ul li a {
+    text-decoration: none;
+  }
+  .footerContainer {
+    background-color: var(--Brown);
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 0 50px 0;
+    margin-bottom: 50px;
+  }
+  .footer-right {
+    display: flex;
+    width: 48.8%;
+  }
+  .footerNav {
+    margin-right: 91px;
+  }
+  .footerNav h3 {
+   font-size: 18px;
+    color: var(--white);
+    font-weight: 400;
+    margin-bottom: 12px; 
+  }
+
+  .footerNav ul li {
+    margin-bottom: 8px;
+  }
+  .footerNav ul li a {
+    color: var(--white);
+    font-size: 12px;
+    font-weight: 200;
+  }
+  .footerNav ul li a:hover {
+    opacity: 0.6;
+  }
+
+  .copyright {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--Black);
+    color: var(--white);
+    text-align: center;
+    padding-bottom: 20px;
+}
+  
+  
+  
+  
+.notification-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.notification {
+  width: 250px;
+  height: 50px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0.8);
+  color: #fff;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+
+.success-notification {
+  background-color: rgba(0, 196, 0, 0.8); /* Change background color for success */
+}
+
+
+.timer-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  background-color: #fff;
+  animation: fillTimer 5s linear forwards;
+}
+
+@keyframes fillTimer {
+  from { width: 0%; }
+  to { width: 100%; }
+}

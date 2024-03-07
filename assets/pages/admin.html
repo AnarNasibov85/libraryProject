@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>admin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style/admin.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/admin.css">
+  </head>
+
+
+
+
+
+
+<!-- logo start -->
+
+  <body  class="body">
+    <div class="main d-none " id="admin_main">
+                    <!-- menu -->
+            <div class="menu">
+                <div class="logo">
+                    <div class="logo_img">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="68" height="107" viewBox="0 0 68 107" fill="none">
+                            <g clip-path="url(#clip0_257_1802)">
+                            <path d="M62.272 37.8699C62.0008 34.6519 61.9626 29.1092 63.8559 27.2481C63.8897 27.214 63.9149 27.1647 63.9446 27.1224C65.4925 26.3408 66.5637 25.2439 65.7228 23.7678L42.8889 12.9062L5.91562 21.0215C5.91562 21.0215 1.68171 21.9769 2.05993 32.3614C2.26526 38.0133 3.38812 40.7891 4.3701 42.1552L1.33611 43.5986C0.494007 45.0746 1.56504 46.1719 3.11316 46.9522C3.14258 46.9958 3.16739 47.0448 3.20181 47.0789C5.09393 48.9416 5.05751 54.4836 4.78535 57.7023C-2.01208 60.7494 0.427968 61.7424 0.427968 61.7424L1.91905 62.312C0.87023 63.8082 -0.171386 66.6456 0.0237292 72.0268C0.402153 82.4094 3.87981 83.1259 3.87981 83.1259L28.0749 95.5413L64.5946 81.5766C64.5946 81.5766 67.0354 80.5821 60.2362 77.5346C59.9628 74.321 59.9248 68.7797 61.8213 66.9122C61.8561 66.879 61.8815 66.8288 61.9098 66.7871C63.4579 66.0055 64.5281 64.9095 63.687 63.4335L62.0997 62.6769C63.1583 61.6691 64.7484 59.0352 64.9976 52.1934C65.1695 47.4874 64.3918 44.7312 63.4917 43.1086L66.6292 41.91C66.6294 41.9119 69.0702 40.9174 62.272 37.8699ZM31.7255 37.7369L37.8667 35.7444L58.6206 29.0113L61.7126 28.0073C60.7247 30.862 60.7661 34.7688 60.9296 37.2798C60.9654 37.8478 61.0066 38.3666 61.0466 38.7608L57.6623 40.0893L31.4673 50.3769L31.7255 37.7369ZM5.34528 47.8412L8.43691 48.8452L28.3681 55.3135L30.1093 55.8765L35.331 57.5709L35.5886 70.2111L8.66584 59.6367L6.01167 58.5954C6.0507 58.2005 6.09192 57.6824 6.12934 57.1128C6.29184 54.6037 6.33406 50.6959 5.34528 47.8412ZM4.14417 31.8616C4.10675 29.0994 4.41853 27.1018 5.0487 26.0864C5.44974 25.4382 5.92302 25.3033 6.24761 25.3033C6.41911 25.3033 6.54259 25.3408 6.55099 25.3408L22.4818 33.5401L30.4299 37.6311L30.1692 50.3595L7.87157 40.4905L6.69488 39.9702C6.65165 39.9509 6.59302 39.9377 6.54779 39.9345C6.45594 39.9241 4.25143 39.6037 4.14417 31.8616ZM28.1326 90.0267L4.65887 79.6371C4.61545 79.6172 4.55741 79.604 4.51219 79.6005C4.41873 79.5907 2.21323 79.2707 2.10656 71.5304C2.06854 68.7648 2.38193 66.7691 3.0109 65.7527C3.41294 65.1045 3.88642 64.9696 4.21041 64.9696C4.38231 64.9696 4.50538 65.0059 4.51439 65.0059C4.51439 65.0059 4.51539 65.0059 4.51439 65.0059L28.3917 77.298L28.1326 90.0267ZM58.8918 76.9451C58.9288 77.5151 58.97 78.0329 59.01 78.4278L29.4301 90.0448L29.6887 77.4045L36.0126 75.3519L36.9466 75.7086L40.4471 73.9125L56.5828 68.6779L59.676 67.6733C58.6871 70.5277 58.7281 74.436 58.8918 76.9451ZM60.5211 59.7665C60.4673 59.7684 60.4135 59.7798 60.3628 59.8051L58.1319 60.7911L36.8898 70.1944L36.63 57.466L43.5993 53.8773L60.4747 45.189C60.4769 45.1874 61.3624 44.8769 62.0124 45.9204C62.6416 46.9358 62.9538 48.9334 62.917 51.6955C62.8069 59.4351 60.6014 59.7568 60.5211 59.7665Z" fill="white"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_257_1802">
+                                <rect width="67.0557" height="105.861" fill="white" transform="translate(0 0.303711)"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="logo_text">
+                        <p class="logo_text_1">LIBRARY</p>
+                        <p class="logo_text_2">Admin Panel</p>
+                    </div>
+                </div>
+                
+                    <div class="menu_link"> 
+                        <div class="menu_link_img">
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="71" height="61" viewBox="0 0 71 61" fill="none">
+                            <path d="M67.0994 17.6048C66.9683 16.2377 66.9498 13.8832 67.865 13.0925C67.8813 13.078 67.8935 13.0571 67.9078 13.0391C68.656 12.7071 69.1738 12.2411 68.7673 11.6141L57.7305 7L39.8593 10.4474C39.8593 10.4474 37.8129 10.8533 37.9957 15.2647C38.0949 17.6657 38.6377 18.8448 39.1123 19.4252L37.6458 20.0384C37.2388 20.6654 37.7565 21.1315 38.5048 21.463C38.519 21.4815 38.531 21.5023 38.5476 21.5168C39.4622 22.3081 39.4446 24.6624 39.313 26.0297C36.0275 27.3241 37.2069 27.746 37.2069 27.746L37.9276 27.9879C37.4206 28.6236 36.9172 29.8289 37.0115 32.1149C37.1944 36.5255 38.8753 36.8299 38.8753 36.8299L50.5701 42.104L68.222 36.1717C68.222 36.1717 69.4018 35.7492 66.1154 34.4546C65.9832 33.0895 65.9648 30.7355 66.8815 29.9422C66.8984 29.9281 66.9107 29.9067 66.9243 29.889C67.6726 29.557 68.1899 29.0914 67.7833 28.4644L67.0161 28.143C67.5278 27.7148 68.2964 26.5959 68.4168 23.6895C68.4999 21.6903 68.124 20.5195 67.6889 19.8302L69.2054 19.321C69.2055 19.3218 70.3853 18.8993 67.0994 17.6048ZM52.3346 17.5483L55.303 16.7018L65.3345 13.8416L66.829 13.415C66.3515 14.6277 66.3715 16.2874 66.4505 17.3541C66.4678 17.5954 66.4878 17.8157 66.5071 17.9832L64.8712 18.5476L52.2098 22.9178L52.3346 17.5483ZM39.5837 21.8407L41.078 22.2672L50.7118 25.015L51.5535 25.2541L54.0774 25.9739L54.2019 31.3436L41.1887 26.8515L39.9058 26.4091C39.9246 26.2414 39.9446 26.0212 39.9626 25.7793C40.0412 24.7134 40.0616 23.0534 39.5837 21.8407ZM39.0031 15.0524C38.985 13.879 39.1357 13.0304 39.4403 12.599C39.6342 12.3237 39.8629 12.2663 40.0198 12.2663C40.1027 12.2663 40.1624 12.2823 40.1664 12.2823L47.8667 15.7654L51.7084 17.5033L51.5824 22.9104L40.8048 18.718L40.236 18.497C40.2151 18.4888 40.1868 18.4832 40.1649 18.4818C40.1205 18.4774 39.0549 18.3413 39.0031 15.0524ZM50.598 39.7614L39.2519 35.3478C39.2309 35.3394 39.2028 35.3337 39.181 35.3322C39.1358 35.3281 38.0698 35.1921 38.0182 31.904C37.9998 30.7292 38.1513 29.8814 38.4553 29.4496C38.6497 29.1742 38.8785 29.1169 39.0351 29.1169C39.1182 29.1169 39.1777 29.1323 39.182 29.1323C39.182 29.1323 39.1825 29.1323 39.182 29.1323L50.7232 34.3541L50.598 39.7614ZM65.4655 34.2042C65.4834 34.4463 65.5034 34.6663 65.5227 34.8341L51.2252 39.769L51.3501 34.3994L54.4068 33.5274L54.8583 33.6789L56.5502 32.9159L64.3495 30.6922L65.8446 30.2655C65.3666 31.478 65.3864 33.1383 65.4655 34.2042ZM66.2531 26.9066C66.2271 26.9074 66.2011 26.9123 66.1766 26.923L65.0983 27.3419L54.8308 31.3364L54.7052 25.9293L58.0739 24.4048L66.2307 20.714C66.2317 20.7133 66.6597 20.5814 66.9739 21.0247C67.278 21.456 67.4289 22.3046 67.4111 23.478C67.3579 26.7658 66.2919 26.9025 66.2531 26.9066Z" fill="white"/>
+                            </svg>
+                        </div>
+                        <a href="/index.html" style="text-decoration:none"><p class="menu_link_text">Home</p></a>
+                    </div>
+                
+                    <div class="menu_link"> 
+                        <div class="menu_link_img">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="71" height="61" viewBox="0 0 71 61" fill="none">
+                            <path d="M67.0994 17.6048C66.9683 16.2377 66.9498 13.8832 67.865 13.0925C67.8813 13.078 67.8935 13.0571 67.9078 13.0391C68.656 12.7071 69.1738 12.2411 68.7673 11.6141L57.7305 7L39.8593 10.4474C39.8593 10.4474 37.8129 10.8533 37.9957 15.2647C38.0949 17.6657 38.6377 18.8448 39.1123 19.4252L37.6458 20.0384C37.2388 20.6654 37.7565 21.1315 38.5048 21.463C38.519 21.4815 38.531 21.5023 38.5476 21.5168C39.4622 22.3081 39.4446 24.6624 39.313 26.0297C36.0275 27.3241 37.2069 27.746 37.2069 27.746L37.9276 27.9879C37.4206 28.6236 36.9172 29.8289 37.0115 32.1149C37.1944 36.5255 38.8753 36.8299 38.8753 36.8299L50.5701 42.104L68.222 36.1717C68.222 36.1717 69.4018 35.7492 66.1154 34.4546C65.9832 33.0895 65.9648 30.7355 66.8815 29.9422C66.8984 29.9281 66.9107 29.9067 66.9243 29.889C67.6726 29.557 68.1899 29.0914 67.7833 28.4644L67.0161 28.143C67.5278 27.7148 68.2964 26.5959 68.4168 23.6895C68.4999 21.6903 68.124 20.5195 67.6889 19.8302L69.2054 19.321C69.2055 19.3218 70.3853 18.8993 67.0994 17.6048ZM52.3346 17.5483L55.303 16.7018L65.3345 13.8416L66.829 13.415C66.3515 14.6277 66.3715 16.2874 66.4505 17.3541C66.4678 17.5954 66.4878 17.8157 66.5071 17.9832L64.8712 18.5476L52.2098 22.9178L52.3346 17.5483ZM39.5837 21.8407L41.078 22.2672L50.7118 25.015L51.5535 25.2541L54.0774 25.9739L54.2019 31.3436L41.1887 26.8515L39.9058 26.4091C39.9246 26.2414 39.9446 26.0212 39.9626 25.7793C40.0412 24.7134 40.0616 23.0534 39.5837 21.8407ZM39.0031 15.0524C38.985 13.879 39.1357 13.0304 39.4403 12.599C39.6342 12.3237 39.8629 12.2663 40.0198 12.2663C40.1027 12.2663 40.1624 12.2823 40.1664 12.2823L47.8667 15.7654L51.7084 17.5033L51.5824 22.9104L40.8048 18.718L40.236 18.497C40.2151 18.4888 40.1868 18.4832 40.1649 18.4818C40.1205 18.4774 39.0549 18.3413 39.0031 15.0524ZM50.598 39.7614L39.2519 35.3478C39.2309 35.3394 39.2028 35.3337 39.181 35.3322C39.1358 35.3281 38.0698 35.1921 38.0182 31.904C37.9998 30.7292 38.1513 29.8814 38.4553 29.4496C38.6497 29.1742 38.8785 29.1169 39.0351 29.1169C39.1182 29.1169 39.1777 29.1323 39.182 29.1323C39.182 29.1323 39.1825 29.1323 39.182 29.1323L50.7232 34.3541L50.598 39.7614ZM65.4655 34.2042C65.4834 34.4463 65.5034 34.6663 65.5227 34.8341L51.2252 39.769L51.3501 34.3994L54.4068 33.5274L54.8583 33.6789L56.5502 32.9159L64.3495 30.6922L65.8446 30.2655C65.3666 31.478 65.3864 33.1383 65.4655 34.2042ZM66.2531 26.9066C66.2271 26.9074 66.2011 26.9123 66.1766 26.923L65.0983 27.3419L54.8308 31.3364L54.7052 25.9293L58.0739 24.4048L66.2307 20.714C66.2317 20.7133 66.6597 20.5814 66.9739 21.0247C67.278 21.456 67.4289 22.3046 67.4111 23.478C67.3579 26.7658 66.2919 26.9025 66.2531 26.9066Z" fill="white"/>
+                            </svg>
+                        </div>
+                        <a href="catalog.html" style="text-decoration:none"><p class="menu_link_text">Books</p></a>
+                    </div>
+
+                    <div class="menu_link"> 
+                        <div class="menu_link_img">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="71" height="61" viewBox="0 0 71 61" fill="none">
+                            <path d="M67.0994 17.6048C66.9683 16.2377 66.9498 13.8832 67.865 13.0925C67.8813 13.078 67.8935 13.0571 67.9078 13.0391C68.656 12.7071 69.1738 12.2411 68.7673 11.6141L57.7305 7L39.8593 10.4474C39.8593 10.4474 37.8129 10.8533 37.9957 15.2647C38.0949 17.6657 38.6377 18.8448 39.1123 19.4252L37.6458 20.0384C37.2388 20.6654 37.7565 21.1315 38.5048 21.463C38.519 21.4815 38.531 21.5023 38.5476 21.5168C39.4622 22.3081 39.4446 24.6624 39.313 26.0297C36.0275 27.3241 37.2069 27.746 37.2069 27.746L37.9276 27.9879C37.4206 28.6236 36.9172 29.8289 37.0115 32.1149C37.1944 36.5255 38.8753 36.8299 38.8753 36.8299L50.5701 42.104L68.222 36.1717C68.222 36.1717 69.4018 35.7492 66.1154 34.4546C65.9832 33.0895 65.9648 30.7355 66.8815 29.9422C66.8984 29.9281 66.9107 29.9067 66.9243 29.889C67.6726 29.557 68.1899 29.0914 67.7833 28.4644L67.0161 28.143C67.5278 27.7148 68.2964 26.5959 68.4168 23.6895C68.4999 21.6903 68.124 20.5195 67.6889 19.8302L69.2054 19.321C69.2055 19.3218 70.3853 18.8993 67.0994 17.6048ZM52.3346 17.5483L55.303 16.7018L65.3345 13.8416L66.829 13.415C66.3515 14.6277 66.3715 16.2874 66.4505 17.3541C66.4678 17.5954 66.4878 17.8157 66.5071 17.9832L64.8712 18.5476L52.2098 22.9178L52.3346 17.5483ZM39.5837 21.8407L41.078 22.2672L50.7118 25.015L51.5535 25.2541L54.0774 25.9739L54.2019 31.3436L41.1887 26.8515L39.9058 26.4091C39.9246 26.2414 39.9446 26.0212 39.9626 25.7793C40.0412 24.7134 40.0616 23.0534 39.5837 21.8407ZM39.0031 15.0524C38.985 13.879 39.1357 13.0304 39.4403 12.599C39.6342 12.3237 39.8629 12.2663 40.0198 12.2663C40.1027 12.2663 40.1624 12.2823 40.1664 12.2823L47.8667 15.7654L51.7084 17.5033L51.5824 22.9104L40.8048 18.718L40.236 18.497C40.2151 18.4888 40.1868 18.4832 40.1649 18.4818C40.1205 18.4774 39.0549 18.3413 39.0031 15.0524ZM50.598 39.7614L39.2519 35.3478C39.2309 35.3394 39.2028 35.3337 39.181 35.3322C39.1358 35.3281 38.0698 35.1921 38.0182 31.904C37.9998 30.7292 38.1513 29.8814 38.4553 29.4496C38.6497 29.1742 38.8785 29.1169 39.0351 29.1169C39.1182 29.1169 39.1777 29.1323 39.182 29.1323C39.182 29.1323 39.1825 29.1323 39.182 29.1323L50.7232 34.3541L50.598 39.7614ZM65.4655 34.2042C65.4834 34.4463 65.5034 34.6663 65.5227 34.8341L51.2252 39.769L51.3501 34.3994L54.4068 33.5274L54.8583 33.6789L56.5502 32.9159L64.3495 30.6922L65.8446 30.2655C65.3666 31.478 65.3864 33.1383 65.4655 34.2042ZM66.2531 26.9066C66.2271 26.9074 66.2011 26.9123 66.1766 26.923L65.0983 27.3419L54.8308 31.3364L54.7052 25.9293L58.0739 24.4048L66.2307 20.714C66.2317 20.7133 66.6597 20.5814 66.9739 21.0247C67.278 21.456 67.4289 22.3046 67.4111 23.478C67.3579 26.7658 66.2919 26.9025 66.2531 26.9066Z" fill="white"/>
+                            </svg>
+                        </div>
+                        <a href="/assets/pages/aboutStore.html" style="text-decoration:none"><p class="menu_link_text">About</p></a>
+                    </div>
+
+                    <div class="menu_link"> 
+                        <div class="menu_link_img">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="71" height="61" viewBox="0 0 71 61" fill="none">
+                            <path d="M67.0994 17.6048C66.9683 16.2377 66.9498 13.8832 67.865 13.0925C67.8813 13.078 67.8935 13.0571 67.9078 13.0391C68.656 12.7071 69.1738 12.2411 68.7673 11.6141L57.7305 7L39.8593 10.4474C39.8593 10.4474 37.8129 10.8533 37.9957 15.2647C38.0949 17.6657 38.6377 18.8448 39.1123 19.4252L37.6458 20.0384C37.2388 20.6654 37.7565 21.1315 38.5048 21.463C38.519 21.4815 38.531 21.5023 38.5476 21.5168C39.4622 22.3081 39.4446 24.6624 39.313 26.0297C36.0275 27.3241 37.2069 27.746 37.2069 27.746L37.9276 27.9879C37.4206 28.6236 36.9172 29.8289 37.0115 32.1149C37.1944 36.5255 38.8753 36.8299 38.8753 36.8299L50.5701 42.104L68.222 36.1717C68.222 36.1717 69.4018 35.7492 66.1154 34.4546C65.9832 33.0895 65.9648 30.7355 66.8815 29.9422C66.8984 29.9281 66.9107 29.9067 66.9243 29.889C67.6726 29.557 68.1899 29.0914 67.7833 28.4644L67.0161 28.143C67.5278 27.7148 68.2964 26.5959 68.4168 23.6895C68.4999 21.6903 68.124 20.5195 67.6889 19.8302L69.2054 19.321C69.2055 19.3218 70.3853 18.8993 67.0994 17.6048ZM52.3346 17.5483L55.303 16.7018L65.3345 13.8416L66.829 13.415C66.3515 14.6277 66.3715 16.2874 66.4505 17.3541C66.4678 17.5954 66.4878 17.8157 66.5071 17.9832L64.8712 18.5476L52.2098 22.9178L52.3346 17.5483ZM39.5837 21.8407L41.078 22.2672L50.7118 25.015L51.5535 25.2541L54.0774 25.9739L54.2019 31.3436L41.1887 26.8515L39.9058 26.4091C39.9246 26.2414 39.9446 26.0212 39.9626 25.7793C40.0412 24.7134 40.0616 23.0534 39.5837 21.8407ZM39.0031 15.0524C38.985 13.879 39.1357 13.0304 39.4403 12.599C39.6342 12.3237 39.8629 12.2663 40.0198 12.2663C40.1027 12.2663 40.1624 12.2823 40.1664 12.2823L47.8667 15.7654L51.7084 17.5033L51.5824 22.9104L40.8048 18.718L40.236 18.497C40.2151 18.4888 40.1868 18.4832 40.1649 18.4818C40.1205 18.4774 39.0549 18.3413 39.0031 15.0524ZM50.598 39.7614L39.2519 35.3478C39.2309 35.3394 39.2028 35.3337 39.181 35.3322C39.1358 35.3281 38.0698 35.1921 38.0182 31.904C37.9998 30.7292 38.1513 29.8814 38.4553 29.4496C38.6497 29.1742 38.8785 29.1169 39.0351 29.1169C39.1182 29.1169 39.1777 29.1323 39.182 29.1323C39.182 29.1323 39.1825 29.1323 39.182 29.1323L50.7232 34.3541L50.598 39.7614ZM65.4655 34.2042C65.4834 34.4463 65.5034 34.6663 65.5227 34.8341L51.2252 39.769L51.3501 34.3994L54.4068 33.5274L54.8583 33.6789L56.5502 32.9159L64.3495 30.6922L65.8446 30.2655C65.3666 31.478 65.3864 33.1383 65.4655 34.2042ZM66.2531 26.9066C66.2271 26.9074 66.2011 26.9123 66.1766 26.923L65.0983 27.3419L54.8308 31.3364L54.7052 25.9293L58.0739 24.4048L66.2307 20.714C66.2317 20.7133 66.6597 20.5814 66.9739 21.0247C67.278 21.456 67.4289 22.3046 67.4111 23.478C67.3579 26.7658 66.2919 26.9025 66.2531 26.9066Z" fill="white"/>
+                            </svg>
+                        </div>
+                        <a href="/index.html" style="text-decoration:none"><p class="menu_link_text">Join us</p></a>
+                    </div>
+
+                    <div class="menu_link"> 
+                        <div class="menu_link_img">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="71" height="61" viewBox="0 0 71 61" fill="none">
+                            <path d="M67.0994 17.6048C66.9683 16.2377 66.9498 13.8832 67.865 13.0925C67.8813 13.078 67.8935 13.0571 67.9078 13.0391C68.656 12.7071 69.1738 12.2411 68.7673 11.6141L57.7305 7L39.8593 10.4474C39.8593 10.4474 37.8129 10.8533 37.9957 15.2647C38.0949 17.6657 38.6377 18.8448 39.1123 19.4252L37.6458 20.0384C37.2388 20.6654 37.7565 21.1315 38.5048 21.463C38.519 21.4815 38.531 21.5023 38.5476 21.5168C39.4622 22.3081 39.4446 24.6624 39.313 26.0297C36.0275 27.3241 37.2069 27.746 37.2069 27.746L37.9276 27.9879C37.4206 28.6236 36.9172 29.8289 37.0115 32.1149C37.1944 36.5255 38.8753 36.8299 38.8753 36.8299L50.5701 42.104L68.222 36.1717C68.222 36.1717 69.4018 35.7492 66.1154 34.4546C65.9832 33.0895 65.9648 30.7355 66.8815 29.9422C66.8984 29.9281 66.9107 29.9067 66.9243 29.889C67.6726 29.557 68.1899 29.0914 67.7833 28.4644L67.0161 28.143C67.5278 27.7148 68.2964 26.5959 68.4168 23.6895C68.4999 21.6903 68.124 20.5195 67.6889 19.8302L69.2054 19.321C69.2055 19.3218 70.3853 18.8993 67.0994 17.6048ZM52.3346 17.5483L55.303 16.7018L65.3345 13.8416L66.829 13.415C66.3515 14.6277 66.3715 16.2874 66.4505 17.3541C66.4678 17.5954 66.4878 17.8157 66.5071 17.9832L64.8712 18.5476L52.2098 22.9178L52.3346 17.5483ZM39.5837 21.8407L41.078 22.2672L50.7118 25.015L51.5535 25.2541L54.0774 25.9739L54.2019 31.3436L41.1887 26.8515L39.9058 26.4091C39.9246 26.2414 39.9446 26.0212 39.9626 25.7793C40.0412 24.7134 40.0616 23.0534 39.5837 21.8407ZM39.0031 15.0524C38.985 13.879 39.1357 13.0304 39.4403 12.599C39.6342 12.3237 39.8629 12.2663 40.0198 12.2663C40.1027 12.2663 40.1624 12.2823 40.1664 12.2823L47.8667 15.7654L51.7084 17.5033L51.5824 22.9104L40.8048 18.718L40.236 18.497C40.2151 18.4888 40.1868 18.4832 40.1649 18.4818C40.1205 18.4774 39.0549 18.3413 39.0031 15.0524ZM50.598 39.7614L39.2519 35.3478C39.2309 35.3394 39.2028 35.3337 39.181 35.3322C39.1358 35.3281 38.0698 35.1921 38.0182 31.904C37.9998 30.7292 38.1513 29.8814 38.4553 29.4496C38.6497 29.1742 38.8785 29.1169 39.0351 29.1169C39.1182 29.1169 39.1777 29.1323 39.182 29.1323C39.182 29.1323 39.1825 29.1323 39.182 29.1323L50.7232 34.3541L50.598 39.7614ZM65.4655 34.2042C65.4834 34.4463 65.5034 34.6663 65.5227 34.8341L51.2252 39.769L51.3501 34.3994L54.4068 33.5274L54.8583 33.6789L56.5502 32.9159L64.3495 30.6922L65.8446 30.2655C65.3666 31.478 65.3864 33.1383 65.4655 34.2042ZM66.2531 26.9066C66.2271 26.9074 66.2011 26.9123 66.1766 26.923L65.0983 27.3419L54.8308 31.3364L54.7052 25.9293L58.0739 24.4048L66.2307 20.714C66.2317 20.7133 66.6597 20.5814 66.9739 21.0247C67.278 21.456 67.4289 22.3046 67.4111 23.478C67.3579 26.7658 66.2919 26.9025 66.2531 26.9066Z" fill="white"/>
+                            </svg>
+                        </div>
+                        <a href="contactUS.html" style="text-decoration:none"><p class="menu_link_text">Contackt </p></a>
+                    </div>
+
+                    <div class="menu_link"> 
+                        <div class="menu_link_img">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="71" height="61" viewBox="0 0 71 61" fill="none">
+                            <path d="M67.0994 17.6048C66.9683 16.2377 66.9498 13.8832 67.865 13.0925C67.8813 13.078 67.8935 13.0571 67.9078 13.0391C68.656 12.7071 69.1738 12.2411 68.7673 11.6141L57.7305 7L39.8593 10.4474C39.8593 10.4474 37.8129 10.8533 37.9957 15.2647C38.0949 17.6657 38.6377 18.8448 39.1123 19.4252L37.6458 20.0384C37.2388 20.6654 37.7565 21.1315 38.5048 21.463C38.519 21.4815 38.531 21.5023 38.5476 21.5168C39.4622 22.3081 39.4446 24.6624 39.313 26.0297C36.0275 27.3241 37.2069 27.746 37.2069 27.746L37.9276 27.9879C37.4206 28.6236 36.9172 29.8289 37.0115 32.1149C37.1944 36.5255 38.8753 36.8299 38.8753 36.8299L50.5701 42.104L68.222 36.1717C68.222 36.1717 69.4018 35.7492 66.1154 34.4546C65.9832 33.0895 65.9648 30.7355 66.8815 29.9422C66.8984 29.9281 66.9107 29.9067 66.9243 29.889C67.6726 29.557 68.1899 29.0914 67.7833 28.4644L67.0161 28.143C67.5278 27.7148 68.2964 26.5959 68.4168 23.6895C68.4999 21.6903 68.124 20.5195 67.6889 19.8302L69.2054 19.321C69.2055 19.3218 70.3853 18.8993 67.0994 17.6048ZM52.3346 17.5483L55.303 16.7018L65.3345 13.8416L66.829 13.415C66.3515 14.6277 66.3715 16.2874 66.4505 17.3541C66.4678 17.5954 66.4878 17.8157 66.5071 17.9832L64.8712 18.5476L52.2098 22.9178L52.3346 17.5483ZM39.5837 21.8407L41.078 22.2672L50.7118 25.015L51.5535 25.2541L54.0774 25.9739L54.2019 31.3436L41.1887 26.8515L39.9058 26.4091C39.9246 26.2414 39.9446 26.0212 39.9626 25.7793C40.0412 24.7134 40.0616 23.0534 39.5837 21.8407ZM39.0031 15.0524C38.985 13.879 39.1357 13.0304 39.4403 12.599C39.6342 12.3237 39.8629 12.2663 40.0198 12.2663C40.1027 12.2663 40.1624 12.2823 40.1664 12.2823L47.8667 15.7654L51.7084 17.5033L51.5824 22.9104L40.8048 18.718L40.236 18.497C40.2151 18.4888 40.1868 18.4832 40.1649 18.4818C40.1205 18.4774 39.0549 18.3413 39.0031 15.0524ZM50.598 39.7614L39.2519 35.3478C39.2309 35.3394 39.2028 35.3337 39.181 35.3322C39.1358 35.3281 38.0698 35.1921 38.0182 31.904C37.9998 30.7292 38.1513 29.8814 38.4553 29.4496C38.6497 29.1742 38.8785 29.1169 39.0351 29.1169C39.1182 29.1169 39.1777 29.1323 39.182 29.1323C39.182 29.1323 39.1825 29.1323 39.182 29.1323L50.7232 34.3541L50.598 39.7614ZM65.4655 34.2042C65.4834 34.4463 65.5034 34.6663 65.5227 34.8341L51.2252 39.769L51.3501 34.3994L54.4068 33.5274L54.8583 33.6789L56.5502 32.9159L64.3495 30.6922L65.8446 30.2655C65.3666 31.478 65.3864 33.1383 65.4655 34.2042ZM66.2531 26.9066C66.2271 26.9074 66.2011 26.9123 66.1766 26.923L65.0983 27.3419L54.8308 31.3364L54.7052 25.9293L58.0739 24.4048L66.2307 20.714C66.2317 20.7133 66.6597 20.5814 66.9739 21.0247C67.278 21.456 67.4289 22.3046 67.4111 23.478C67.3579 26.7658 66.2919 26.9025 66.2531 26.9066Z" fill="white"/>
+                            </svg>
+                        </div >
+                        <a  id="log_outh" style="text-decoration:none"><p class="menu_link_text">log out</p></a>
+                    </div>
+
+            </div>
+            <!-- menu -->
+        <!-- person section -->
+        <div class="person_section">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="31" viewBox="0 0 24 31" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.7405 26.2448C21.7405 29.7282 16.9635 30.1309 13.3713 30.1309L13.1142 30.1306C10.8256 30.1251 5 29.9806 5 26.2237C5 22.8114 9.58498 22.3554 13.1499 22.3382L13.6284 22.3379C15.9169 22.3434 21.7405 22.4879 21.7405 26.2448ZM13.3713 23.9229C8.86807 23.9229 6.58527 24.6965 6.58527 26.2237C6.58527 27.7646 8.86807 28.5456 13.3713 28.5456C17.8735 28.5456 20.1552 27.772 20.1552 26.2448C20.1552 24.7039 17.8735 23.9229 13.3713 23.9229ZM13.3713 9.13086C16.4657 9.13086 18.9821 11.6483 18.9821 14.7427C18.9821 17.8372 16.4657 20.3535 13.3713 20.3535H13.3375C10.2494 20.344 7.74781 17.8256 7.75834 14.7396C7.75834 11.6483 10.2758 9.13086 13.3713 9.13086ZM13.3713 10.64C11.1086 10.64 9.26753 12.48 9.26753 14.7427C9.26016 16.998 11.0874 18.837 13.3406 18.8454L13.3713 19.6V18.8454C15.633 18.8454 17.4729 17.0044 17.4729 14.7427C17.4729 12.48 15.633 10.64 13.3713 10.64Z" fill="black"/>
+            </svg>
+            <p>admin</p>
+        </div>
+        <!-- person section -->
+
+
+        <div class="right_side">
+                    <!-- search book -->
+            <h1 class="right_side_h1">Add book</h1>
+            <div class="search_book ">
+                <h3>Search book</h3>
+                <div class="search_section">
+                    <input type="text" name="" id="search_Input">
+                    <button class="search_section_btn " id="search_Btn">
+                        <img src="/assets/img/search.svg" alt="">
+                    </button>
+                </div>
+                <div class="search_variants d-none " id="search_variant" >
+                    <div class="variant">
+                        <img src="/assets/img/cloack.svg" alt="">
+                        <p>Dan Brown Davinc</p>
+                    </div>
+                    <div class="variant">
+                        <img src="/assets/img/cloack.svg" alt="">
+                        <p>Dan Brown Davinc</p>
+                    </div>
+                </div>
+            </div>
+                    <!-- searvh book -->
+                    <!-- book form -->
+            <h3 class="right_side_h3">Book form</h3>
+            <div class="book_form" id="book_form_div">
+                <div class="book_form_secion">
+                    <h2 class="book_form_secion_title" id="form_section_title">Book Name</h2>
+                    <input class="book_form_secion_inp" id="form_section_title_input" placeholder="Book Name">
+                </div>
+                <div class="book_form_secion">
+                    <h2 class="book_form_secion_title" id="form_section_author">Author Name</h2>
+                    <input class="book_form_secion_inp" id="form_section_author_input" placeholder="Author Name">
+                </div>
+                <div class="book_form_secion">
+                    <h2 class="book_form_secion_title" id="form_section_img">Book Image Url</h2>
+                    <input class="book_form_secion_inp" id="form_section_img_url" placeholder="Book Image Url">
+                </div> 
+                <div class="book_form_secion">
+                    <h2 class="book_form_secion_title" id="form_section_year">Publication Year</h2>
+                    <input class="book_form_secion_inp" id="form_section_publication_year" placeholder="Publication Year">
+                </div> 
+                <div class="book_form_secion d-flex flex-row">
+                    <input type="checkbox" id="new_book_checkbox"> 
+                    <p>NEW</p>
+                </div>
+                <div class="book_form_secion">
+                    <div class="add-type-book">
+                        <h2 class="book_form_secion_title">Book Type</h2>
+                        <button id="addTypeBtnForm">Add type</button>
+                        <div id="addTypeModal" class="modal-book-form">
+                            <input id="bookCategorie" placeholder="booktype" />
+                            <button id="addBtnCategorie" class="add-type-form-btn">Add</button>
+                            <button id="closeTypeBtn" class="close-type-form-btn">X</button>
+                        </div>
+                    </div>
+                    <input class="book_form_secion_inp" id="form_section_type_input" placeholder="Book Type">
+                    <h2 class="book_form_secion_title" id="form_section_description">Description</h2>
+                    <textarea placeholder="Description" class="book_form_secion_textarea" id="form_section_description_input"></textarea>
+                </div>
+                <button class="book_form_secion_btn" id="book_add">Add</button>
+            </div>
+            
+            
+
+            <!-- ABOUT  -->
+            <h1 class="right_side_h1">About Store</h1>
+            <div class="book_form" id="about_Store">
+                <div class=" book_form_secion">
+                    <h2 class="book_form_secion_title">Title</h2>
+                    <input id="aboutTitle" type="text" class="book_form_secion_inp" placeholder="About Store">
+                </div>
+                <div class=" book_form_secion">
+                    <h2 class="book_form_secion_title">Book Image Url</h2>
+                    <textarea name="" id="aboutBookImg" cols="30" rows="10" class="book_url">https://image:url/</textarea>    
+                </div>
+        
+                <div class=" book_form_secion">
+                    <h2 class="book_form_secion_title"> Description</h2>
+                    <textarea name="" id="aboutDesc" cols="30" rows="10" class="description_inp" placeholder="We work without holidays and weekends! Resident...We work without holidays and weekends! Resident...We work without holidays and weekends! Resident..."></textarea>
+                </div>
+
+                <button class="book_form_secion_btn" id="about-info-add">About info add</button>
+            </div>
+
+                    <!-- book form -->
+                    <!-- table -->
+
+                    <!-- join_us -->
+            <h1 class="table_title">Join Us</h1>
+            <table class="table_" id="table_us">
+                <thead class="table_head">
+                    <tr>
+                        <th class="th_num">#</th>
+                        <th class="th_text">Full Name</th>
+                        <th class="th_text2">Email Address</th>
+                    </tr>
+                </thead>
+                <tbody id="table_body_us">
+                    <tr class="table_body">
+                        <th class="th_num">1</th>
+                        <td class="th_text">Audrey Mckinney</td>
+                        <td class="th_text2">lisa.watson@example.com</td>
+                    </tr>
+                    <tr class="table_body">
+                        <th class="th_num">2</th>
+                        <td class="th_text">Audrey Mckinney</td>
+                        <td class="th_text2">lisa.watson@example.com</td>
+                    </tr>
+                    <tr class="table_body">
+                        <th class="th_num">3</th>
+                        <td class="th_text">Audrey Mckinney</td>
+                        <td class="th_text2">lisa.watson@example.com</td>
+                    </tr>
+                    <tr class="table_body">
+                        <th class="th_num">4</th>
+                        <td class="th_text">Audrey Mckinney</td>
+                        <td class="th_text2">lisa.watson@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+                    <!-- join_us -->
+
+
+                    <!-- all books -->
+            <h1 class="table_title">Books</h1>
+            <table class="books">
+                <thead class="table_head">
+                    <tr>
+                        <th class="th_num">#</th>
+                        <th class="th_book_title">Title</th>
+                        <th class="th_book_description">Description</th>
+                        <th class="th_book_Category">Category</th>
+                        <th class="th_book_author">Author</th>
+                    </tr>
+                </thead>
+                <tbody class="table_body scrol_bar" id="all_books_table">
+                    <tr class="b_tr">
+                        <th class="th_num">1</th>
+                        <th class="th_book_title_b"><img src="/assets/img/image 8.png" alt=""> <p>Angels</p></th>
+                        <th class="th_book_description">Lorem impus test...</th>
+                        <th class="th_book_Category">Dedectiv</th>
+                        <th class="th_book_author">Dan Brown </th> 
+                        <th class="th_book_icons">
+                            <div  id="corection_button"><img src="../img/icons8-pencil-64.png"  class="delete_svg"> </div>
+                        <div id="delete_icon"><img src="../img/delete.svg" class="delete_svg"  alt=""></div>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+                    <!-- all books -->
+
+             <!-- Contact Us -->
+             <h1 class="table_title">Contact Us</h1>
+             <table id="contactTable" class="books">
+                 <thead class="table_head">
+                     <tr>
+                         <th class="th_num">#</th>
+                         <th class="th_book_title">Full Name</th>
+                         <th class="th_book_description">Address</th>
+                         <th class="th_book_Category">Email Address</th>
+                         <th class="th_book_author">Phone Number</th>
+                     </tr>
+                 </thead>
+                 <tbody id="table_body" class="table_body">
+                     <tr id="cont_tr" class="b_tr">
+                         <td class="th_num">1</td>
+                         <td id="contactName0" class="th_book_title"> <p>Audrey Mckinney</p></td>
+                         <td id="contactAdress0" class="th_book_description">1473 Ranchview Dr undefined San Jose</td>
+                         <td id="contactEmail0" class="th_book_Category">lisa.watson@example.com</td>
+                         <td id="contactNum0" class="th_book_author"> (209) 555-0104</td> 
+                     </tr>
+                 </tbody>
+             </table>
+            <!-- Contact Us -->
+                    <!-- table -->
+            
+        </div>
+
+
+
+    </div>
+
+
+
+
+<!-- logo start -->
+ <div class="body2 d-flex justify-content-center align-items-center w-100 " id="admin_auth">
+<!-- logo start -->
+
+<section class="section1">
+  <div class="logo_container">
+    <div class="logo">
+      <img src="/assets/images/bookimg.svg" alt="logo">
+    </div>
+    <div class="logo_text">
+   <p class="library">LIBRARY</p>
+   <p class="admin-panel">Admin panel</p>
+  </div>
+  </div>
+</section>
+ <!-- logo finish -->
+
+
+<!-- admin panel start-->
+<div class="admin_panel">
+  <h1 class="admin_panel_text" >Welcome Admin</h1>
+  <input type="text" class="admin_panel_inpt" placeholder="Username" id="admin_panel_username">
+  <input type="text" class="admin_panel_inpt" placeholder="Password" id="admin_panel_pasword">
+  <button class="admin_panel_btn" id="admin_panel_btn">Join</button>
+</div>
+
+<!-- admin panel finish -->
+
+</div >
+<div class="book_coorektion_panel d-none" id="Correct_panel">
+    <div class="book_form" id="book_form_div">
+        <div class="book_form_secion">
+            <h2 class="book_form_secion_title" id="form_section_title">Book Name</h2>
+            <input class="book_form_secion_inp" id="correct_title" placeholder="Book Name">
+        </div>
+        <div class="book_form_secion">
+            <h2 class="book_form_secion_title" id="form_section_author">Author Name</h2>
+            <input class="book_form_secion_inp" id="correct_author" placeholder="Author Name">
+        </div>
+        <div class="book_form_secion">
+            <h2 class="book_form_secion_title" id="form_section_img">Book Image Url</h2>
+            <input class="book_form_secion_inp" id="correct_img_url" placeholder="Book Image Url">
+        </div> 
+        <div class="book_form_secion">
+            <h2 class="book_form_secion_title" id="form_section_year">Publication Year</h2>
+            <input class="book_form_secion_inp" id="correct_publication_year" placeholder="Publication Year">
+        </div> 
+        <div class="book_form_secion d-flex flex-row">
+            <input type="checkbox" id="correct_checkbox"> 
+            <p>NEW</p>
+        </div>
+        <div class="book_form_secion">
+            <div class="add-type-book">
+                <h2 class="book_form_secion_title">Book Type</h2>
+            </div>
+            <input class="book_form_secion_inp" id="coorecy_type_input" placeholder="Book Type">
+            <h2 class="book_form_secion_title" id="form_section_description">Description</h2>
+            <textarea placeholder="Description" class="book_form_secion_textarea" id="correct_description"></textarea>
+        </div>
+        <button class="book_form_secion_btn" id="correct_btn">Correct</button>
+    </div>
+</div>
+
+
+  
+ 
+    </script>
+</body>
+</html>
+<script type="module" src="../js/contactus.js"></script>
+<script type="module" src="../scripts/admin-books.js"></script>
+<script type="module" src="../js/joinus.js"></script>
+<script type="module" src="../scripts/contact-admin.js"></script>
+   
+  <script type="module" src="../scripts/admin-about.js"></script>
+  
+<script type="module" src="../js/admin.js"></script>
+
+  
+<script type="module" src="../scripts/admin-about.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+
+</html>
+

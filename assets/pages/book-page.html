@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book</title>
+    <link rel="stylesheet" href="/assets/style/book-page.css" />
+    <link rel="stylesheet" href="/assets/style/reset.css" />
+    <link rel="stylesheet" href="/assets/style/joinUs.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+
+
+    <!-- HEADER -->
+  
+
+    <header class="header">
+      <div class="headerContainer">
+        <a href="/index.html"
+          ><img class="lib-logo" src="/assets/images/logo.svg" alt="logo"
+        /></a>
+        <img class="menu-mobile" src="/assets/images/menu.svg" alt="menu" />
+     
+
+      <nav>
+        <ul class="menuNav">
+          <li><a href="/index.html">Home</a></li>
+          <li>
+            <a href="/assets/pages/catalog.html">Catalog</a>
+          </li>
+          <li>
+            <a href="/assets/pages/aboutStore.html" class="active">About Store</a>
+          </li>
+          <li>
+            <a href="/assets/pages/contactUS.html">Contact Us</a>
+          </li>
+          <li><a href="/assets/pages/search.html">Search</a></li>
+        </ul>
+      </nav>
+
+
+    
+      <div class="joinUs">
+        <img src="/assets/images/joinUs.svg" alt="profile" />
+        <a id="myBtn">Join Us</a>
+      </div>
+    </div>
+    </header>
+    <!-- JOIN US -->
+    <div id="joinModal" class="modal">
+      <div class="modal-content">
+  <div class="join-modal">
+              <span>Join Us</span>
+              <div class="join-inp">
+                <input type="text" placeholder="Full name" id="Join_name">
+                <input type="email"  placeholder="email" id="Join_email">
+              </div>
+              
+              <div class="join-btn">
+                  <button id="Join_btn">Join</button>
+              </div>
+          </div>
+      </div>
+
+  </div>
+    <section class="about-book container">
+      <div class="about-text">
+        <button>&lt; Back</button>
+        <div class="book-year">
+          <p>2017</p>
+        </div>
+        <div class="book-text">
+          <h2>Order in Chaos</h2>
+          <h5>2 days ago added</h5>
+          <h6>Konstantin Koptelov</h6>
+          <p>
+            s of Kiev can receive an order on the day of its registration.
+            Customers from other cities of Ukraine can receive an order within
+            1-5 days, depending on the location of the settlement and the
+            selected delivery method. Orders over UAH 1000 are delivered free of
+            charge *. You can see the available methods, exact terms and cost of
+            delivery during checkout in the order basket, after selecting the
+            delivery city. More details
+          </p>
+        </div>
+      </div>
+
+      <div class="about-img">
+        <img src="/assets/images/book-page1.svg" alt="book" />
+        <div class="new-modal">
+          <p>New</p>
+        </div>
+      </div>
+      <div class="book-year-mobile">
+        <p>2017</p>
+      </div>
+    </section>
+
+    <div class="book-text-mob">
+      <h2>Order in Chaos</h2>
+
+      <h6>Konstantin Koptelov</h6>
+      <p>
+        s of Kiev can receive an order on the day of its registration. Customers
+        from other cities of Ukraine can receive an order within 1-5 days,
+        depending on the location of the settlement and the selected delivery
+        method. Orders over UAH 1000 are delivered free of charge *. You can see
+        the available methods, exact terms and cost of delivery during checkout
+        in the order basket, after selecting the delivery city. More details
+      </p>
+    </div>
+<div class="comments_area container ">
+  <div class="comments">
+    <div class="input-btn">
+      <input placeholder="your anonim comment..." />
+      <button class="send-button">
+        <svg
+          class="send-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="30"
+          height="29"
+          viewBox="0 0 30 29"
+          fill="none"
+        >
+          <g clip-path="url(#clip0_2416_3382)">
+            <path
+              d="M3.06707 24.9259L28.038 14.3704L3.06707 3.81482L3.05518 12.0247L20.9 14.3704L3.05518 16.7161L3.06707 24.9259Z"
+              fill="white"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_2416_3382">
+              <path
+                d="M0.675781 5.29627C0.675781 2.53484 2.91436 0.296265 5.67578 0.296265H24.2276C26.989 0.296265 29.2276 2.53484 29.2276 5.29626V23.4444C29.2276 26.2058 26.989 28.4444 24.2276 28.4444H5.67578C2.91435 28.4444 0.675781 26.2058 0.675781 23.4444V5.29627Z"
+                fill="white"
+              />
+            </clipPath>
+          </defs>
+        </svg>
+      </button>
+    </div>
+
+    <div class="anonim-comments">
+      <div class="comm1">
+        <div class="user1-info">
+          <h2>anonim</h2>
+          <p>18:32 today</p>
+        </div>
+        <p>
+          Woah, your project looks awesome! How long have you been coding for?
+          I’m still new, but think I want to dive into React as well soon.
+          Perhaps you can give me an insight on where I can learn React?
+          Thanks!
+        </p>
+      </div>
+
+      <div class="comm2">
+        <div class="user2-info">
+          <h2>anonim</h2>
+          <p>2 days ago</p>
+        </div>
+        <p>
+          Woah, your project looks awesome! How long have you been coding for?
+          I’m still new, but think I want to dive into
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+   
+
+    <!-- SOCIAL MEDIA  -->
+    <section class="social-sect">
+      <div class="social-text">
+        <p>Follow us on social media</p>
+      </div>
+      <div class="media-logos">
+        <a href="https://www.facebook.com/" class="facebook-logo"
+          ><img src="/assets/images/facebook.svg" alt="facebook"
+        /></a>
+        <a href="https://twitter.com/" class="twitter-logo"
+          ><img src="/assets/images/twitter.svg" alt="twitter"
+        /></a>
+        <a href="https://www.instagram.com/" class="insta-logo"
+          ><img src="/assets/images/instagram.svg" alt="instagram"
+        /></a>
+      </div>
+    </section>
+
+    <footer class="footerContainer">
+      <div class="contain">
+        <div class="footer">
+          <div class="bottom-logo">
+            <img src="/assets/images/logo-group.svg" alt="logo" />
+          </div>
+
+          <div class="mobile-footer-catalog">
+            <ul>
+              <li>Home</li>
+              <li>Catalog</li>
+              <li>About</li>
+              <li>Contact us</li>
+              <li>Search</li>
+            </ul>
+          </div>
+
+          <div class="mobile-line">
+            <div class="copyrigh-mob">
+              <p>Library BookStore EACamp</p>
+              <p>© 2003-2021</p>
+            </div>
+          </div>
+        
+
+        <div class="footer-right">
+          <div class="footerNav">
+            <h3>Popular</h3>
+            <ul>
+              <li><a href="#">Programming</a></li>
+              <li><a href="#">Books for children</a></li>
+              <li><a href="#">Psychology</a></li>
+              <li><a href="#">Business</a></li>
+            </ul>
+          </div>
+
+          <div class="footerNav">
+            <h3>Cash</h3>
+            <ul>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Payment</a></li>
+              <li><a href="#">About the store</a></li>
+            </ul>
+          </div>
+
+          <div class="footerNav">
+            <h3>Help</h3>
+            <ul>
+              <li><a href="#">Contacts</a></li>
+              <li><a href="#">Purchase returns</a></li>
+              <li><a href="#">Buyer help</a></li>
+            </ul>
+          </div>
+        </div>
+
+        </div>
+      </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          All rights reserved © 2003-2024 LIBRARY TERMS OF USE | Privacy Policy
+        </p>
+      </div>
+  
+    </footer>
+    <script type="module" src="/assets/scripts/join-modal.js"></script>
+  </body>
+</html>

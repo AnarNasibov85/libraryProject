@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --Brown: #391F00;
+    --Orange: #E16A00;
+    --Black: #241400;
+    --Background: #fffaf5;
+    --Border: #ccc;
+    --Button: #E16A00;
+    --Hover: #FF7F00;
+    --fontMontserrat: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--Background);
+    font-family: var(--fontMontserrat);
+}
+
+.containerContact {
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.contactHeading {
+    font-family: var(--fontMontserrat);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    padding-left: 15px;
+    line-height: 196.187%; /* 70.627px */
+    margin-bottom: 10px;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.column {
+    flex: 1;
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+
+.fullwidth {
+    flex-basis: 100%;
+}
+
+.formLabel {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    height: 55px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid --Border;
+    border-radius: 5px;
+}
+
+input.form-control{
+    padding-left: 1rem;
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+
+.sendButton {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    word-wrap: break-word;
+    width: 610px;
+    height: 75px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background: var(--Button);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.sendButton:hover {
+    background: var(--Hover);
+}
+
+
+  
